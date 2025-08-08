@@ -6,7 +6,7 @@ This repository tracks the weekly progress, projects, and hands-on exercises of 
 
 ---
 
-## 🚀 About This Course
+## About This Course
 
 This course is **not self-paced** — we're all learning together in a structured, collaborative online environment. Over the course of several weeks, you'll move from total beginner to shipping your own **full-stack e-commerce application** using modern tools like React, Next.js, Tailwind CSS, Zustand, Supabase, and Node.js.
 
@@ -27,11 +27,11 @@ Modules Covered:
 13. Testing & Optimization  
 14. Deployment & Maintenance  
 
-👨‍💻 **Capstone Project:** Fully deployed e-commerce app using all technologies above.
+**Capstone Project:** Fully deployed e-commerce app using all technologies above.
 
 ---
 
-## 📌 Step-by-Step Contribution Guide
+## Step-by-Step Contribution Guide
 
 Follow these steps to contribute your work each week.
 
@@ -122,7 +122,7 @@ Add Week 3 Project for Emeka
 
 ---
 
-## 📎 Additional Notes
+## Additional Notes
 
 * Weekly project folders follow this format: `week-01`, `week-02`, ..., `week-14`
 * Code should be readable, well-commented, and functional.
