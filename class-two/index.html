@@ -3,47 +3,75 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Blog</title>
+    <title>HTML Deep Dive</title>
 </head>
 <body>
+    <h1>HTML Deep Dive: Forms, Media & Accessibility</h1>
+    <p>This page is a demonstration of what we learned about creating powerful forms, embedding media, and building accessible websites.</p>
+    <hr>
+    <h2>Accessible Registration Form</h2>
+    <img src="logo.png" style="background-color: black; width: 300px;" alt="The official logo for our school.">
 
-    <header>
-        <h1>My HTML Blog</h1>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <hr>
-    </header>
+    
+    <form action="/submit">
 
-    <main>
-        <article>
-            <h2>My First Blog Post</h2>
-            <p><i>Posted by Alex Smith on August 08, 2025</i></p>
-            <p>This is the first post on my new blog. It is written using only HTML, which provides the core structure for every website. Without CSS, the browser displays the content using its own default styles for headings, paragraphs, and links.</p>
-            <p>Semantic tags like &lt;header&gt;, &lt;main&gt;, and &lt;article&gt; are used to give meaning to the content, which is important for accessibility and search engines.</p>
-            <a href="#">Read More...</a>
-        </article>
-    </main>
+        <h3>Create Your Account</h3>
 
+        <div>
+            <label for="fullName">Full Name:</label><br>
+            <input type="text" id="fullName" name="full_name">
+        </div>
+        <div>
+            <label for="email">Email Address:</label><br>
+            <input type="email" id="email" name="user_email" placeholder="you@example.com">
+        </div>
+        <div>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="user_password">
+        </div>
+
+        <div>Choose an Account Type:</div>
+        <input type="radio" id="personal" name="account_type" value="personal">
+        <label for="personal">Personal</label><br>
+        <input type="radio" id="business" name="account_type" value="business">
+        <label for="business">Business</label>
+
+        <div>
+            <input type="checkbox" id="terms" name="agree_terms">
+            <label for="terms">I agree to the Terms & Conditions.</label>
+        </div>
+
+        <button type="submit">Register</button>
+        
+    </form>
+    
+    <hr>
+    
+    <h2>Embedded Media</h2>
+    <p>Below are examples of how to embed media like video and audio directly into an HTML page.</p>
+
+    <h3>Video Example</h3>
+    <video src="sample-video.mp4" controls width="400">
+      Your browser does not support the video tag.
+    </video>
+    <p><em>The <b>alt</b> attribute for video is the text between the tags, which shows if the video fails to load. The <b>controls</b> attribute provides the play/pause button and other video controls.</em></p>
+
+    <h3>Audio Example</h3>
+    <audio src="Ian.mp3" controls>
+      Your browser does not support the audio tag.
+    </audio>
+    <p><em>Like video, the audio tag can have fallback text and uses the <b>controls</b> attribute to show the audio player.</em></p>
+    
     <hr>
 
-    <aside>
-        <h3>Recent Posts</h3>
-        <ul>
-            <li><a href="#">My First Blog Post</a></li>
-            <li><a href="#">The Power of Hyperlinks</a></li>
-            <li><a href="#">Using Lists and Images</a></li>
-        </ul>
-    </aside>
+    <h2>Key Accessibility Reminders (a11y)</h2>
+    <p>Accessibility makes the web usable for everyone. Here are the key takeaways from today:</p>
+    <ul>
+        <li><b>Always use a <code>&lt;label&gt;</code> for every <code>&lt;input&gt;</code>.</b> The <code>for</code> attribute on the label must match the <code>id</code> of the input.</li>
+        <li><b>Write descriptive <code>alt</code> text for all meaningful images.</b> If an image is just for decoration, use an empty alt attribute like <code>alt=""</code>.</li>
+        <li><b>Use placeholders as a hint, not a label.</b> Labels are permanent, but placeholder text disappears when a user starts typing.</li>
+    </ul>
 
-    <hr>
-
-    <footer>
-        <p>Copyright &copy; 2025 My HTML Blog.</p>
-    </footer>
 </body>
+
 </html>

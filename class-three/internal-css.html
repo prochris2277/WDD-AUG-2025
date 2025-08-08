@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Styled Blog</title>
+    <style>
+        /* General Body Styles */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+
+        /* Layout Container */
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 0 20px;
+        }
+
+        /* Header and Navigation */
+        header {
+            background: #ffffff;
+            padding: 1rem 0;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+        
+        header h1 {
+            color: #2c3e50;
+            margin: 0;
+        }
+
+        header nav ul {
+            padding: 0;
+            margin-top: 10px;
+            list-style: none;
+        }
+
+        header nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        header nav a {
+            color: #3498db;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        
+        header nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Main Content and Articles */
+        article {
+            background: #ffffff;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+
+        article h2 {
+            margin-top: 0;
+            color: #34495e;
+        }
+
+        article .post-meta {
+            color: #7f8c8d;
+            font-size: 0.9em;
+            margin-bottom: 15px;
+        }
+        
+        article a.read-more {
+            display: inline-block;
+            background-color: #3498db;
+            color: #ffffff;
+            padding: 10px 15px;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+            transition: background-color 0.3s;
+        }
+
+        article a.read-more:hover {
+            background-color: #2980b9;
+        }
+
+        /* Sidebar */
+        aside {
+            background: #ffffff;
+            padding: 25px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+        
+        aside h3 {
+            margin-top: 0;
+            color: #34495e;
+            border-bottom: 2px solid #f0f2f5;
+            padding-bottom: 10px;
+        }
+        
+        aside ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        aside ul li {
+            margin-bottom: 10px;
+        }
+
+        aside a {
+            color: #2980b9;
+            text-decoration: none;
+        }
+        
+        aside a:hover {
+            text-decoration: underline;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding: 20px 0;
+            color: #777;
+        }
+        
+        /* Hiding the original <hr> tags as spacing is handled by CSS */
+        hr {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>My HTML Blog</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <main>
+            <article>
+                <h2>My First Blog Post</h2>
+                <p class="post-meta"><i>Posted by Alex Smith on August 08, 2025</i></p>
+                <p>This is the first post on my new blog. It is written using only HTML, which provides the core structure for every website. Without CSS, the browser displays the content using its own default styles for headings, paragraphs, and links.</p>
+                <p>Semantic tags like &lt;header&gt;, &lt;main&gt;, and &lt;article&gt; are used to give meaning to the content, which is important for accessibility and search engines.</p>
+                <a href="#" class="read-more">Read More...</a>
+            </article>
+        </main>
+
+        <aside>
+            <h3>Recent Posts</h3>
+            <ul>
+                <li><a href="#">My First Blog Post</a></li>
+                <li><a href="#">The Power of Hyperlinks</a></li>
+                <li><a href="#">Using Lists and Images</a></li>
+            </ul>
+        </aside>
+    </div>
+
+    <footer>
+        <p>Copyright &copy; 2025 My HTML Blog.</p>
+    </footer>
+
+</body>
+</html>
