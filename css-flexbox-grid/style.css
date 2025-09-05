@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    color: #ffffff;
+}
+
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+ul{
+    list-style: none;
+}
+
+button{
+    padding: 12px 22px;
+    border-radius: 10px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+body{
+    background: #000000;
+    padding-inline: 8.125em;
+}
+
+nav{
+    padding-block: 2em;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    gap: 2em;
+}
+
+.nav-link{
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.auth-btns button{
+    font-weight: 600;
+    font-size: 1rem;
+}
+.signin-btn{
+    border: 1px solid #ffffff;
+    margin-right: 1em;
+}
+
+.signup-btn{
+    background-image: linear-gradient(90deg,#933FFE, #18C8FF);
+}
+
+.hero-section{
+    width: 780px;
+    margin-block: 169px;
+    margin-inline: auto;
+}
+
+.hero-section h1{
+    font-weight: 800;
+    font-size: 5.063rem;
+    text-align: center;
+}
+
+.hero-section p{
+    width: 580px;
+    font-size: 1rem;
+    margin-inline: auto;
+    text-align: center;
+    color: #898CA9;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+
+.get-started-btn{
+    background-image: linear-gradient(90deg,#933FFE, #18C8FF);
+    font-weight: 600;
+    font-size: 1rem;
+    padding: 22px 33px;
+    display: block;
+    margin-inline: auto;
+}
