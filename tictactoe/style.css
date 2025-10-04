@@ -24,3 +24,21 @@ header {
     font-family: monospace;
     color: black;
 }
+.btn{
+    margin: 3em auto;
+    display: flex;
+}
+h5{
+    margin: 1em auto;
+    display: flex;
+    justify-content: center;
+}
+#sq1{
+    background-color: red;
+}
+#sq2{
+    background-color: green;
+}
+#sq3{
+    background-color: blue;
+}

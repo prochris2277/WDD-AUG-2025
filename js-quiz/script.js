@@ -10,12 +10,17 @@
 
     // TODO 2: Declare & assign a variable called fact
     // Its value should be an object with a statement, true/false answer, and explanation 
-    
+    const fact = {
+        statement:"javaScrpit is the same as java", 
+        answer:"false", 
+        explanation:"JavaScript is a scripting language mainly for web browsers, while Java is a general-purpose programming language used for many kinds of applications."
+    }
 
     
     // TODO 3: Set the text of the statement element to the fact's statement
 
-        
+        document.getElementById("statement").textContent = fact.statement
+    
 
     // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
     // disable(button) should set the button element's attribute "disabled" to the value ""
