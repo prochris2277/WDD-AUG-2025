@@ -20,16 +20,23 @@
     // TODO 3: Set the text of the statement element to the fact's statement
 
         document.getElementById("statement").textContent = fact.statement
+        console.log("paper")
     
 
     // TODO 4: Declare disable & enable functions to set or remove the "disabled" attribute from a given button element
     // disable(button) should set the button element's attribute "disabled" to the value ""
     // enable(button) should remove the attribute "disabled" from the button element
-
-
-
+    const disable = (value) => {
+        document.getElementById("options").children[value].disabled = true;
+    }
+     const enable = (value) => {
+        document.getElementById("options").children[value].disabled = false;
+    }
+    
+     
     // TODO 5: Declare an isCorrect function that compares a guess to the right answer
     // isCorrect(guess) should return true if the guess matches the fact's answer
+    
     
 
 
