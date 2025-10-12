@@ -12,7 +12,7 @@
     // Its value should be an object with a statement, true/false answer, and explanation 
     const fact = {
         statement:"javaScrpit is the same as java", 
-        answer:false, 
+        answer:"true", 
         explanation:"JavaScript is a scripting language mainly for web browsers, while Java is a general-purpose programming language used for many kinds of applications."
     }
 
@@ -72,19 +72,25 @@
     for (const button of optionButtons) {
      button.addEventListener("click",  buttonClicked = () =>{
         console.log(`button clicked`, button.textContent);
-        explanation.textContent = fact.explanation
+        explanation.textContent = fact.explanation;
+
         for (const button of optionButtons) {
-            disable()
+            disable();
         }
-         
+        
+        if (button.textContent === fact.answer) {
+            button.classList.add("correct")
+        } else {
+            button.classList.add("incorrect")
+        }
       
-     
+      
 
      })
      
     }
 
-     
+    
    
 
             // TODO 7: Within the event handler function, 
