@@ -12,7 +12,7 @@
     // Its value should be an object with a statement, true/false answer, and explanation 
     const fact = {
         statement:"javaScrpit is the same as java", 
-        answer:"true", 
+        answer:"false", 
         explanation:"JavaScript is a scripting language mainly for web browsers, while Java is a general-purpose programming language used for many kinds of applications."
     }
 
