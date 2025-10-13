@@ -12,7 +12,7 @@
     // Its value should be an object with a statement, true/false answer, and explanation 
     const fact = {
         statement:"javaScrpit is the same as java", 
-        answer:"false", 
+        answer:false, 
         explanation:"JavaScript is a scripting language mainly for web browsers, while Java is a general-purpose programming language used for many kinds of applications."
     }
 
@@ -78,7 +78,7 @@
             disable();
         }
         
-        if (button.textContent === fact.answer) {
+        if ((button.textContent === "true") === fact.answer ) {
             button.classList.add("correct")
         } else {
             button.classList.add("incorrect")
