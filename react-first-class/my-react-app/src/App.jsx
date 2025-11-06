@@ -13,7 +13,7 @@ function App() {
                            <h1 className='text-5xl font-bold '>Promise</h1>
                            <p className='my-[.5em] font-medium'>Full-Stack Developer</p>
 
-                        <div className='flex items-center gap-8 '>
+                        <div className='flex items-center gap-8 mx-[50px]'>
                               <a href="mailto:cpro227@gmail.com" className="flex items-center gap-2 px-8 py-2.5  bg-[#3a3737] text-white  rounded-lg shadow-md hover:bg-[#000000] transition
                               "><FaEnvelope />Email</a>
                               <a href="https://github.com/prochris2277" className="flex items-center gap-2 px-8 py-2.5 bg-[#3a3737] text-white  rounded-lg shadow-md hover:bg-[#000000] transition
