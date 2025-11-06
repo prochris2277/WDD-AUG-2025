@@ -20,11 +20,11 @@ function App() {
                               "><FaGithub />Github</a>
                         </div>
 
-                           <div className='place-items-start mx-[50px] pb-[9em]'>
+                           <div className='place-items-start mx-[50px] pb-[10em]'>
                               <h2 className='mt-[1em]  text-2xl font-semibold '>About</h2>
-                              <p className='pl-[.5em] pr-[1em] py-[.5em] mt-[.5em] font-medium bg-[#aa968a] rounded-md'>Promise is a student frontend developer aspiring to become a full-stack developer and also a badass "Tobi Marshall" </p>
+                              <p className='pl-[.5em] pr-[1em] py-[.5em] mt-[.5em] font-medium bg-[#aa968a] rounded-md text-[#333131]'>Promise is a student frontend developer aspiring to become a full-stack developer and also a badass "Tobi Marshall" </p>
                               <h2 className='mt-[1em]   text-2xl font-semibold'>Interests</h2>
-                              <p className='pl-[.5em] mt-[.5em] py-[.5em] font-medium bg-[#aa968a] rounded-md'>I love to travel, try out new dishes, speak spanish, skydive and drive fast cars </p>
+                              <p className='pl-[.5em] mt-[.5em] py-[.5em] font-medium bg-[#aa968a] rounded-md text-[#333131]'>I love to travel, try out new dishes, speak spanish, skydive and drive fast cars </p>
                            </div>
                            <footer className='bg-[#000000] text-[white] w-[100%] place-items text-center '>2025 All rights reserved</footer>
                      </content>
