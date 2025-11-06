@@ -1,0 +1,28 @@
+@import "tailwindcss";
+/* 
+@tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+
+/* body{
+    margin-inline: 35em;
+    background-color: rgb(13, 12, 12);
+    color: aliceblue;
+} */
+
+/* h1{
+    color: red;
+    margin-left: 10em;
+}
+p{
+    color: blue;
+}
+ button{
+    justify-content:space-between;
+    align-items:center;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20em;
+ } */
